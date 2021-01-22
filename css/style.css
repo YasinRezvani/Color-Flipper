@@ -28,7 +28,7 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     min-height: 10vh;
     text-transform: capitalize;
