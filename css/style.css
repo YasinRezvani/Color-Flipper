@@ -18,39 +18,53 @@ body {
 
 .logo {
     font-size: 20px;
-    margin-right: -140px;
+    margin-right: -40px;
+    margin-left: 115px;
 }
 
 .logo h4 {
     display: inline;
     margin-right: 5px;
+    color: #2196F3;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     min-height: 10vh;
     text-transform: capitalize;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: white;
+    box-shadow: 0 3px 2px -2px rgba(0,0,0,0.2);
 }
 
 .nav-link {
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 35%;
     font-weight: bold;
     font-size: 15.5px;
     margin-right: -280px;
 }
 
+.li-1{
+    margin-right: -100px;
+}
+
+ul li a{
+    color: black;
+}
+
+ ul{
+    color: #2196F3;
+}
 
 .burger div {
     width: 25px;
     height: 3px;
     margin: 5px;
-    background-color: white;
+    background-color: black;
     display: none;
     transition: all 0.4s ease;
 }
@@ -58,7 +72,7 @@ nav {
 @media screen and (max-width:1024px) {
     .nav-link {
         width: 45%;
-        margin-right: -90px;
+        margin-right: -235px;
     }
 
     .logo {
@@ -82,18 +96,20 @@ nav {
 @media screen and (max-width:768px) {
     .nav-link-res {
         position: absolute;
-        left: 0;
+        right: 0;
         height: 90vh;
         top: 10vh;
-        background-color: rgba(0, 0, 0, 0.65);
+        background-color: #ffffff;
         display: none;
+        font-weight: bold;
         width: 40%;
         transform: translateX(-100%);
         transition: 0.6s;
+        box-shadow: -1px 2px 6px 0px rgba(0,0,0,0.2);~~
     }
 
     .nav-link-res li {
-        margin: 10px 15px 29px 0px;
+        margin: 10px 15px 29px 15px;
         transition: 0.6s;
     }
 
@@ -104,12 +120,17 @@ nav {
 
     .burger div {
         display: block;
-        margin-right: 179px;
+        
 
     }
 
     .burger {
         cursor: pointer;
+        margin-right: -210px;
+    }
+
+    .logo , .nav-center{
+        margin-left: -190px;
     }
 }
 
