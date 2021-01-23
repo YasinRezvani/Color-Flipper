@@ -3,8 +3,9 @@ body {
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    background-color: #f1f5f8;;
-    
+    background-color: #f1f5f8;
+    ;
+
 
 }
 
@@ -20,8 +21,8 @@ body {
 
 .logo {
     font-size: 20px;
-    margin-right: -40px;
-    margin-left: 115px;
+    margin-right: -76px;
+    margin-left: 0px;
 }
 
 .logo h4 {
@@ -38,7 +39,7 @@ nav {
     min-height: 8.5vh;
     text-transform: capitalize;
     background-color: white;
-    box-shadow: 0 3px 10px -2px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2);
 }
 
 .nav-link {
@@ -48,18 +49,19 @@ nav {
     width: 35%;
     font-weight: bold;
     font-size: 18px;
-    margin-right: -280px;
+    margin-right: -454px;
 }
 
-.li-1{
+.li-1 {
     margin-right: -135px;
+    margin-left: -60px;
 }
 
-ul li a{
+ul li a {
     color: black;
 }
 
- ul{
+ul {
     color: #2196F3;
 }
 
@@ -86,12 +88,13 @@ ul li a{
 
 
 @media screen and (max-width:768px) {
-    .nav-link{
+    .nav-link {
         display: none;
     }
 }
+
 @media screen and (min-width:768px) {
-    .nav-link-res{
+    .nav-link-res {
         display: none;
     }
 }
@@ -101,14 +104,15 @@ ul li a{
         position: absolute;
         right: 0;
         height: 90vh;
-        top: 10vh;
+        top: 8.5vh;
         background-color: #ffffff;
         display: none;
         font-weight: bold;
         width: 40%;
         transform: translateX(-100%);
         transition: 0.6s;
-        box-shadow: -1px 2px 6px 0px rgba(0,0,0,0.2);
+        box-shadow: -1px 2px 6px 0px rgba(0, 0, 0, 0.2);
+        color: #2196F3
     }
 
     .nav-link-res li {
@@ -123,17 +127,19 @@ ul li a{
 
     .burger div {
         display: block;
-        
+
 
     }
 
     .burger {
         cursor: pointer;
-        margin-right: -210px;
+        margin-right: 3px;
+        margin-left: 234px;
     }
 
-    .logo , .nav-center{
-        margin-left: -190px;
+    .logo,
+    .nav-center {
+        margin-left: 0px;
     }
 }
 
@@ -155,14 +161,14 @@ ul li a{
     transform: rotate(-45deg) translate(5px, -6px);
 }
 
-.container{
+.container {
     position: absolute;
     top: 45%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-.container h2{
+.container h2 {
     font-size: 2.5rem;
     background-color: black;
     padding: 1rem;
@@ -171,23 +177,26 @@ ul li a{
     width: 100%;
     letter-spacing: 0.25rem;
     line-height: 1;
-    font-family: "Roboto" sans-serif;
-}
-.color{
-    color: hsl(205deg 78% 60%);
-    letter-spacing: 0.25rem;
+    font-family: "Roboto"sans-serif;
 }
 
-.btn{
+.color {
+    color: hsl(205deg 78% 60%);
+    letter-spacing: 0.25rem;
+    font-size: 35px;
+    line-height: 5px;
+}
+
+.btn {
     position: absolute;
     top: 180%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     letter-spacing: 0.18rem;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto"sans-serif;
     border-radius: 8px;
     border: 2px solid #000000;
-    background-color: transparent;   
+    background-color: transparent;
     font-size: 1rem;
     padding: 0.55rem 1.25rem;
     outline: none;
@@ -196,15 +205,17 @@ ul li a{
     cursor: pointer;
     font-weight: 700;
 }
-.btn:hover{
+
+.btn:hover {
     background: black;
     color: white;
 }
-.yasin{
+
+.yasin {
     position: absolute;
     top: 240%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     user-select: none;
     font-size: 15px;
 }

@@ -10,6 +10,16 @@ const slide= () => {
 
 slide();
 
-let aa = document.getElementById('logo');
-console.log(aa.nodeType);
-console.log(aa.nodeName);
+let pallete = ["green","brown","blue","purple", "pink" , "#2196F3"];
+
+let btn = document.querySelector(".btn");
+let span = document.querySelector(".color");
+
+btn.addEventListener("click" , function(){ 
+    let random = Math.floor(Math.random() * pallete.length);
+    let randomres = pallete[random];
+    document.body.style.backgroundColor = randomres;
+    span.textContent = randomres; 
+    
+});
+
