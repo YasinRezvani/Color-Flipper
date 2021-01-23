@@ -3,6 +3,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    background-color: #f1f5f8;;
+    
 
 }
 
@@ -12,7 +14,7 @@ body {
     text-decoration: none;
     box-sizing: border-box;
     font-family: sahel;
-    color: white;
+    color: black;
     list-style: none;
 }
 
@@ -26,16 +28,17 @@ body {
     display: inline;
     margin-right: 5px;
     color: #2196F3;
+    font-size: 22px;
 }
 
 nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    min-height: 10vh;
+    min-height: 8.5vh;
     text-transform: capitalize;
     background-color: white;
-    box-shadow: 0 3px 2px -2px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 10px -2px rgba(0,0,0,0.2);
 }
 
 .nav-link {
@@ -44,12 +47,12 @@ nav {
     justify-content: space-evenly;
     width: 35%;
     font-weight: bold;
-    font-size: 15.5px;
+    font-size: 18px;
     margin-right: -280px;
 }
 
 .li-1{
-    margin-right: -100px;
+    margin-right: -135px;
 }
 
 ul li a{
@@ -105,7 +108,7 @@ ul li a{
         width: 40%;
         transform: translateX(-100%);
         transition: 0.6s;
-        box-shadow: -1px 2px 6px 0px rgba(0,0,0,0.2);~~
+        box-shadow: -1px 2px 6px 0px rgba(0,0,0,0.2);
     }
 
     .nav-link-res li {
@@ -152,11 +155,56 @@ ul li a{
     transform: rotate(-45deg) translate(5px, -6px);
 }
 
-.fa-home,
-.fa-universal-access,
-.fa-shopping-basket,
-.fa-blog,
-.fa-address-card {
-    font-size: 22px;
-    margin-left: 10px;
+.container{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container h2{
+    font-size: 2.5rem;
+    background-color: black;
+    padding: 1rem;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    letter-spacing: 0.25rem;
+    line-height: 1;
+    font-family: "Roboto" sans-serif;
+}
+.color{
+    color: hsl(205deg 78% 60%);
+    letter-spacing: 0.25rem;
+}
+
+.btn{
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 0.18rem;
+    font-family: "Roboto" sans-serif;
+    border-radius: 8px;
+    border: 2px solid #000000;
+    background-color: transparent;   
+    font-size: 1rem;
+    padding: 0.55rem 1.25rem;
+    outline: none;
+    transition: all 0.3s linear;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-weight: 700;
+}
+.btn:hover{
+    background: black;
+    color: white;
+}
+.yasin{
+    position: absolute;
+    top: 240%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    user-select: none;
+    font-size: 15px;
 }

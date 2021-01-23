@@ -6,9 +6,10 @@ const slide= () => {
             nav.classList.toggle('nav-active');
             burger.classList.toggle('toggle');
     });
-
-    
-
 }
 
 slide();
+
+let aa = document.getElementById('logo');
+console.log(aa.nodeType);
+console.log(aa.nodeName);
