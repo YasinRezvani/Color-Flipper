@@ -19,7 +19,6 @@ btn.addEventListener("click" , function(){
     let random = Math.floor(Math.random() * pallete.length);
     let randomres = pallete[random];
     document.body.style.backgroundColor = randomres;
-    span.textContent = randomres; 
-    
+    span.textContent = randomres;   
 });
 
