@@ -10,7 +10,7 @@ const slide= () => {
 
 slide();
 
-let pallete = ["green","brown","blue","purple", "pink" , "#2196F3"];
+let pallete = ["green","brown","blue","purple", "pink"];
 
 let btn = document.querySelector(".btn");
 let span = document.querySelector(".color");
